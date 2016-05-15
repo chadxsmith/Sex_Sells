@@ -1,6 +1,8 @@
 
-
-.background__img--full { 
+/*.header--transparent:after{
+  content: "Sex Sell"
+}
+*/.background__img--full { 
   background: url(images/giphy_60.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,14 +11,16 @@
 }
 
 .header--transparent{
-  font-size: 400px;
+  font-size: 200px;
+  text-align: center;
+
   width: 100%;
    color: white;  /* Fallback: assume this color ON TOP of image */
    background: url(images/giphy_55.gif) repeat;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
     font-family: Arial, sans-serif;
-    position: absolute;
+/*    position: absolute;
     top: 10px;
-    left: 10px;
+    left: 10px;*/
 }
